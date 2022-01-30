@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "@/design-system/*": ["./@design-system/*"],
+      "@/experimental-components/*": ["./@experimental-components/*"],
+      "@/components/*": ["./components/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/utils/*": ["./utils/*"],
+      "@/libs/*": ["./libs/*"],
+      "@/recoil/*": ["./recoil/*"],
+      "@/session/*": ["./session/*"],
+      "@/test/*": ["./test/*"],
+      "@/theme/*": ["./theme.js"],
+      "@/providers/*": ["./providers"]
+    }
+  }
+}
